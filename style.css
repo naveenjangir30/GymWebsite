@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/training-g14b68cd6a_1280.jpg);
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+
+/* Logo */
+#left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+#left img {
+    filter: invert(100);
+    width: 50px;
+    padding: 0px 12px;
+}
+
+#left div {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+/* Navbar */
+#mid {
+    margin: 20px auto;
+    display: block;
+    width: 45%;
+}
+
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+/* Right buttons */
+#right {
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 20px;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 2px solid grey;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 14px;
+    border-radius: 9px;
+    margin: 0px 2px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: #4a4848;
+}
+
+/* Form Group */
+#container {
+    border: 2px solid white;
+    margin: 124px 85px;
+    padding: 70px;
+    width: 35%;
+    border-radius: 25px;
+}
+
+.form-group input {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    display: block;
+    width: 350px;
+    margin: 5px auto;
+    padding: 5px 5px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#container button {
+    display: block;
+    width: 68%;
+    margin: 10px auto;
+}
